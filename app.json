@@ -2,10 +2,21 @@
   "expo": {
     "name": "Brasil Sobrevivência",
     "slug": "brasil-sobrevivencia",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "sdkVersion": "49.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png"
+    "icon": "./assets/logo.png",
+    "extra": {
+      "eas": {
+        "projectId": "1600cba3-fac7-4fcc-b5b6-5b20d0e0e993"
+      }
+    },
+    "android": {
+      "package": "android.id"
+    }
   }
 }
